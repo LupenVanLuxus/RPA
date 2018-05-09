@@ -1,0 +1,12 @@
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\bin\Debug\UporabaWebAPI.exe.config
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\bin\Debug\UporabaWebAPI.exe
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\bin\Debug\UporabaWebAPI.pdb
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\bin\Debug\Newtonsoft.Json.dll
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\bin\Debug\System.Net.Http.Formatting.dll
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\bin\Debug\Newtonsoft.Json.xml
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\bin\Debug\System.Net.Http.Formatting.xml
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\obj\Debug\UporabaWebAPI.csprojResolveAssemblyReference.cache
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\obj\Debug\UporabaWebAPI.csproj.CoreCompileInputs.cache
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\obj\Debug\UporabaWebAPI.csproj.CopyComplete
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\obj\Debug\UporabaWebAPI.exe
+D:\Rpa\UporabaWebAPI\UporabaWebAPI\obj\Debug\UporabaWebAPI.pdb
