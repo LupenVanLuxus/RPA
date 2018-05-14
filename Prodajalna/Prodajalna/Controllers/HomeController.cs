@@ -16,7 +16,7 @@ namespace Prodajalna.Controllers
         }
         public ActionResult Admin()
         {
-            string apiUri = Url.HttpRouteUrl("DefaultApi", new { controller = "admin" });
+            string apiUri = Url.HttpRouteUrl("DefaultApi", new { controller = "Admin" });
             ViewBag.ApiUrl = new Uri(Request.Url, apiUri).AbsoluteUri.ToString();
 
             return View();
