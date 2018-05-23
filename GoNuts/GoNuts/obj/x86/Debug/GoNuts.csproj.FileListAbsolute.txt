@@ -212,3 +212,8 @@ D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\qualifiers.txt
 D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\ProjectArchitectures.txt
+D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\DonutPage.xbf
+D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\DonutPage.g.i.cs
+D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\DonutPage.g.cs
+D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\DonutPage.xaml
+D:\Rpa\GoNuts\GoNuts\obj\x86\Debug\DonutPage.xbf

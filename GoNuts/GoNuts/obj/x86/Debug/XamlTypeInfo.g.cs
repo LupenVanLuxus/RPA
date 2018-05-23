@@ -132,15 +132,17 @@ namespace GoNuts.GoNuts_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "GoNuts.MainPage";
+            _typeNameTable = new string[4];
+            _typeNameTable[0] = "GoNuts.DonutPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "GoNuts.MainPage";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::GoNuts.MainPage);
+            _typeTable = new global::System.Type[4];
+            _typeTable[0] = typeof(global::GoNuts.DonutPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::GoNuts.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +177,8 @@ namespace GoNuts.GoNuts_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::GoNuts.MainPage(); }
+        private object Activate_0_DonutPage() { return new global::GoNuts.DonutPage(); }
+        private object Activate_3_MainPage() { return new global::GoNuts.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,9 +190,9 @@ namespace GoNuts.GoNuts_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  GoNuts.MainPage
+            case 0:   //  GoNuts.DonutPage
                 userType = new global::GoNuts.GoNuts_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_DonutPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -200,6 +203,13 @@ namespace GoNuts.GoNuts_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::GoNuts.GoNuts_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  GoNuts.MainPage
+                userType = new global::GoNuts.GoNuts_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;

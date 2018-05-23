@@ -442,6 +442,9 @@
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\DonutPage.xbf">
+      <PackagePath>DonutPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

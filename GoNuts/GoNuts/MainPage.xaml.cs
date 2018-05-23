@@ -25,6 +25,12 @@ namespace GoNuts
         public MainPage()
         {
             this.InitializeComponent();
+            mojFrame.Navigate(typeof(DonutPage));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            mojFrame.Navigate(typeof(DonutPage));
         }
     }
 }

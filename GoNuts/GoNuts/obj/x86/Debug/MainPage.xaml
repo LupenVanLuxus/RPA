@@ -37,7 +37,7 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-            <Button Style="{StaticResource gumbi}"  >
+            <Button x:ConnectionId='4' Style="{StaticResource gumbi}"                       >
                 <StackPanel Orientation="Horizontal">
                     <Image Style="{StaticResource ikona}"
                            Source="Assets/donut-icon.png"/>

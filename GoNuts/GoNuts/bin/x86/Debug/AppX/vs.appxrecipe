@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-21T08:56:11.403</Modified>
+      <Modified>2018-05-23T09:28:14.983</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\GoNuts.exe">
       <PackagePath>entrypoint\GoNuts.exe</PackagePath>
-      <Modified>2018-05-21T08:56:10.994</Modified>
+      <Modified>2018-05-23T09:28:14.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\student\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -583,15 +583,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\GoNuts.xr.xml">
       <PackagePath>GoNuts.xr.xml</PackagePath>
-      <Modified>2018-05-21T08:56:10.758</Modified>
+      <Modified>2018-05-23T09:28:14.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2018-05-21T08:43:22.755</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\DonutPage.xbf">
+      <PackagePath>DonutPage.xbf</PackagePath>
+      <Modified>2018-05-23T09:28:14.396</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-05-21T08:56:10.785</Modified>
+      <Modified>2018-05-23T09:23:47.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -600,11 +604,11 @@
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-21T08:43:25.115</Modified>
+      <Modified>2018-05-23T09:21:21.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Rpa\GoNuts\GoNuts\bin\x86\Debug\Core\GoNuts.exe">
       <PackagePath>GoNuts.exe</PackagePath>
-      <Modified>2018-05-21T08:56:11.399</Modified>
+      <Modified>2018-05-23T09:28:14.978</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
