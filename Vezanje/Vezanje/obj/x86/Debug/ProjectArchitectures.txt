@@ -1,0 +1,1 @@
+C:\Rpa\RPA\Vezanje\Vezanje\Vezanje.csproj;x86

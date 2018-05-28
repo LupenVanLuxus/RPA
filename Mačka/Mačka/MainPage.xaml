@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="Mačka.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Mačka"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup >
+                <VisualState x:Name="Ozko">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="10"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Prvi.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="Drugi.(Grid.Row)" Value="1"/>
+                        <Setter Target="Drugi.(Grid.ColumnSpan)" Value="3"/>
+                        <Setter Target="Tretji.(Grid.Row)" Value="2"/>
+                        <Setter Target="Tretji.(Grid.ColumnSpan)" Value="3"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Širko">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="800"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Prvi.(Grid.RowSpan)" Value="3"/>
+                        <Setter Target="Drugi.(Grid.Column)" Value="1"/>
+                        <Setter Target="Drugi.(Grid.RowSpan)" Value="3"/>
+                        <Setter Target="Tretji.(Grid.Column)" Value="2"/>
+                        <Setter Target="Tretji.(Grid.RowSpan)" Value="3"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Name="Prvi" Margin="20">
+            <Image Source="Assets/Tibbles.jpg" HorizontalAlignment="Left"/>
+            <TextBlock>To je nekaj podatkov o maji mački.</TextBlock>
+        </StackPanel>
+        <StackPanel Name="Drugi" Margin="20">
+            <TextBlock TextWrapping="Wrap">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Name="Tretji" Margin="20">
+            <TextBlock TextWrapping="Wrap">
+                Nunc pretium vel ipsum quis mollis. Morbi sit amet ligula enim. Quisque finibus, leo a sodales feugiat, purus turpis auctor quam, ut pulvinar felis sem eu dui. Etiam vitae elementum augue. Mauris cursus a leo nec dignissim. Integer venenatis risus arcu, et tempus lectus maximus id. Ut convallis sit amet nisl at tincidunt. Nam pulvinar, ligula sed aliquam placerat, ante nisi lobortis orci, in imperdiet quam mi non elit. Vivamus ultricies eros vitae urna porta finibus. Nulla feugiat pulvinar elit, vitae luctus odio lobortis ac. Quisque accumsan felis eros, quis posuere lorem porta sed. Donec molestie ante ut erat sagittis, egestas hendrerit nisl dapibus. Pellentesque sed venenatis orci. In eget massa at est rhoncus sodales a sed neque. 
+Nam et sodales elit, vel semper velit. Nullam tincidunt tortor tortor, ac pulvinar neque dignissim vitae. Maecenas eget nisl nulla. Nam non ipsum sem. Donec at consectetur eros. Donec fringilla dui non bibendum rutrum. Integer non libero eu magna mollis ultrices. Ut placerat diam eget facilisis commodo. Aenean metus magna, imperdiet vel pharetra ac, laoreet sed elit. Quisque at felis vitae libero accumsan condimentum sed vel erat. Maecenas suscipit nisi at est dictum, convallis volutpat nunc suscipit. Cras ac nulla vel sapien pretium finibus et vitae tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed sit amet laoreet nisi. Aenean non ligula id urna commodo tincidunt.
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
