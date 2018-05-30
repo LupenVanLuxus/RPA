@@ -26,9 +26,12 @@ namespace MVVMZapisi
         public MojZapis Trenutni
         {
             get { return trenutni; }
-            set { trenutni = value; OnPropertyChanged(); }
+            set { trenutni = value; OnPropertyChanged();
+                NarediZelenoUkaz.RaiseCanExecuteChanged();
+            }
         }
         public string Naslov { get; set; }
+        public DelegateCommand NarediZelenoUkaz { get; set; }
         public MojViewModel()
         {
             Zapisi = new ObservableCollection<MojZapis>();
@@ -38,6 +41,10 @@ namespace MVVMZapisi
             }
             trenutni = Zapisi.First();
             Naslov = "Moji zapisi";
+            NarediZelenoUkaz = new DelegateCommand(
+                (p) => { Trenutni.Barva = Colors.Green; },
+                (p) => { return Trenutni != null; }
+                );
         }
     }
 }
