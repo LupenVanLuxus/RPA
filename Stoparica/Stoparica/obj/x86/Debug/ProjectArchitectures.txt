@@ -1,0 +1,1 @@
+C:\Rpa\RPA\Stoparica\Stoparica\Stoparica.csproj;x86
